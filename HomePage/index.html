@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/83ea256c90.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/spacelab/bootstrap.min.css">   
+</head>
+<body>
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="{% url 'home' %}" class="navbar-brand text-info"><i class="fab fa-cuttlefish"></i>odePerfectPlus</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active" ><i class="fas fa-home"></i> Home</a>
+            <a href="#" class="nav-item nav-link" ><i class="fa fa-archive"></i> Projects</a>
+            <a href="#" class="nav-item nav-link"><i class="fas fa-pen"></i> Join</a>
+            <a href="#" class="nav-item nav-link"><i class="fa fa-comments"></i> Subscribe</a>
+            <a href="#" class="nav-item nav-link"><i class="fa fa-book"></i> About </a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <form class="form-inline" method="get">
+                <input name="q" class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-light btn-outline-info my-2 my-sm-0" type="submit">Search <i class="fas fa-search"></i> </button>
+        </div>
+            </form>        
+            <a href="{% url 'login' %}" class="nav-item nav-link text-info">Login <i class="fas fa-sign-in-alt"></i></a>
+            <a href="{% url 'signup' %}" class="nav-item nav-link text-info">SignUp <i class="fas fa-user-plus"></i></a>        
+    </div>
+</nav>
+<!--Header-->
+<header>
+<div class="container bg-white jumbotron text-center">
+    <h1>CodePerfectPlus</h1>
+    <hr>
+    <p>A DataScience Portfolio Project with Python.<p>
+</div>
+</header>
+<!--Advertise-->
+<div class="text-center"><span><span class="carbon-wrap"><a href="https://srv.carbonads.net/ads/click/x/GTND42Q7CVBD5K3LCAALYKQMF67DP5QMCE7DVZ3JCWAI62JWCTYIE27KC6BILKJWFTYIKK3EHJNCLSIZ?segment=placement:simpleisbetterthancomplexcom;" 
+class="carbon-img" target="_blank" rel="noopener sponsored"><img src="https://cdn4.buysellads.net/uu/1/63492/1592423593-redhat_carbon.png" 
+alt="ads via Carbon" border="0" style="max-width: 130px;"></a>
+<a href="https://srv.carbonads.net/ads/click/x/GTND42Q7CVBD5K3LCAALYKQMF67DP5QMCE7DVZ3JCWAI62JWCTYIE27KC6BILKJWFTYIKK3EHJNCLSIZ?segment=placement:simpleisbetterthancomplexcom;" class="carbon-text" target="_blank" rel="noopener sponsored">Build flexibility with hybrid cloud</a></span><a href="http://carbonads.net/?utm_source=simpleisbetterthancomplexcom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" 
+class="carbon-poweredby" target="_blank" rel="noopener sponsored">ads via Carbon</a></span></div>
+<!-- Main Article-->
+<div class="container">
+    <div class="row">
+        <!--Article one-->
+        <div class="col-md-8">
+            <div class="card mb-3 shadow-lg">
+                <img class="card-img-top img-fluid" style="height:300px;background-size: cover; background-position: center;"src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-info font-weight-bold"><img src="https://img.icons8.com/cotton/30/000000/news.png"/>An Introduction to Gradient Descent Algorithm</h5>
+                    <p class="card-text text-muted">Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction to find the minima of the function. it' the backbone of a machine-learning algorithm.it's originally proposed by Cauchy in 1847.</p>
+                    <p><a class="text-info font-weight-bold" href="#" class="btn-custom">Read More... <i class="fas fa-angle-double-right"></i> <span class="ion-ios-arrow-forward"></span></a></p>
+                    <p class="card-text"><small class="text-muted"><img src="https://img.icons8.com/cute-clipart/25/000000/pay-date.png"/> 12,Jan 2020 by <a href="#" target="_blank" >
+                    <img src="https://img.icons8.com/bubbles/25/000000/hand-with-pen.png"/> Admin</a> </small>
+                    </p>
+                </div>
+            </div>
+            <hr>
+        <!--Article Two-->
+        <div class="card mb-3 shadow-lg">
+                <img class="card-img-top img-fluid" style="height:300px;background-size: cover; background-position: center;"src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-info font-weight-bold"><img src="https://img.icons8.com/cotton/30/000000/news.png"/>An Introduction to Gradient Descent Algorithm</h5>
+                    <p class="card-text text-muted">Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction to find the minima of the function. it' the backbone of a machine-learning algorithm.it's originally proposed by Cauchy in 1847.</p>
+                    <p><a class="text-info font-weight-bold" href="#" class="btn-custom">Read More... <i class="fas fa-angle-double-right"></i> <span class="ion-ios-arrow-forward"></span></a></p>
+                    <p class="card-text"><small class="text-muted"><img src="https://img.icons8.com/cute-clipart/25/000000/pay-date.png"/> 12,Jan 2020 by <a href="#" target="_blank" >
+                    <img src="https://img.icons8.com/bubbles/25/000000/hand-with-pen.png"/> Admin</a> </small>
+                    </p>
+                </div>
+            </div>
+            <hr>
+        <!--Article Three-->
+        <div class="card mb-3 shadow-lg">
+                <img class="card-img-top img-fluid" style="height:300px;background-size: cover; background-position: center;"src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-info font-weight-bold"><img src="https://img.icons8.com/cotton/30/000000/news.png"/>An Introduction to Gradient Descent Algorithm</h5>
+                    <p class="card-text text-muted">Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction to find the minima of the function. it' the backbone of a machine-learning algorithm.it's originally proposed by Cauchy in 1847.</p>
+                    <p><a class="text-info font-weight-bold" href="#" class="btn-custom">Read More... <i class="fas fa-angle-double-right"></i> <span class="ion-ios-arrow-forward"></span></a></p>
+                    <p class="card-text"><small class="text-muted"><img src="https://img.icons8.com/cute-clipart/25/000000/pay-date.png"/> 12,Jan 2020 by <a href="#" target="_blank" >
+                    <img src="https://img.icons8.com/bubbles/25/000000/hand-with-pen.png"/> Admin</a> </small>
+                    </p>
+                </div>
+            </div>
+            <hr>        
+        </div>
+        <!--Sidebar-->
+        <div class="col-md-4">        
+        <!--Sidebar Newsletter-->
+        <form class="form-group" method="post">                            
+                <h2 class="text-center font-weight-bold">Subscribe Now <img src="https://img.icons8.com/bubbles/50/000000/email.png"/></h2>
+                <p>Subscribe to our mailing list to recieve update from the blog.</p>
+                <textarea rows="4" cols="50" name="emailField" class="form-control" placeholder="Enter Email With Space"></textarea>
+            <div class="container text-center mb-4">
+                <button class="shadow-lg btn btn-primary text-white font-weight-bold my-2" style="width:280px" type="submit">Subscribe</button>  
+            </div>
+        </form>
+        <hr>
+        <!--Social Bar-->
+        <div class="card-mb-3 shadow text-center">
+            <div class="card-body">
+            <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-lg rgba-white-slight mx-1 text-info" href="https://www.facebook.com/codeperfectplus/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li> 
+            <li class="list-inline-item">
+              <a class="btn-floating btn-lg rgba-white-slight mx-1 text-info" href="https://twitter.com/codeperfectplus" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-lg rgba-white-slight mx-1 text-info" href="https://www.instagram.com/codeperfectplus/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-lg rgba-white-slight mx-1 text-info" href="https://linkedin.com/in/deepak-raj-35887386/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+            </div>
+        </div>
+        <hr>
+        <!--Facebook Embed-->
+        <h2 class="text-center font-weight-bold">Facebook</h2>
+        <div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=129099172149325&amp;id=105871227805453" 
+        data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/permalink.php?story_fbid=129099172149325&amp;id=105871227805453" 
+        class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/Codeperfectplus-105871227805453/">Codeperfectplus</a> on&nbsp;
+        <a href="https://developers.facebook.com/permalink.php?story_fbid=129099172149325&amp;id=105871227805453">Thursday, 18 June 2020</a></blockquote></div>
+        <hr>
+        <!--Twitter Embed-->
+        <h2 class="text-center font-weight-bold">Twitter</h2>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just posted a photo <a href="https://t.co/2phtL4gqRS">https://t.co/2phtL4gqRS</a>
+        </p>&mdash; CodePerfectPlus (@CodePerfectPlus) <a href="https://twitter.com/CodePerfectPlus/status/1273476694427553792?ref_src=twsrc%5Etfw">June 18, 2020</a>
+        </blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!--Sidebar Article-->
+        <h2 class="text-center font-text-bold">Popular Article</h2>
+            <hr>
+            <div class="card mb-3 shadow-lg">
+                <img class="card-img-top img-fluid" style="height:100px;background-size: cover; background-position: center;"src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-info font-weight-bold"><img src="https://img.icons8.com/cotton/30/000000/news.png"/>An Introduction to Gradient Descent Algorithm</h5>                    
+                    <p><a class="text-info font-weight-bold" href="#" class="btn-custom">Read More... <i class="fas fa-angle-double-right"></i> <span class="ion-ios-arrow-forward"></span></a></p>                    
+                </div>
+            </div>
+            <div class="card mb-3 shadow-lg">
+                <img class="card-img-top img-fluid" style="height:100px;background-size: cover; background-position: center;"src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-info font-weight-bold"><img src="https://img.icons8.com/cotton/30/000000/news.png"/>An Introduction to Gradient Descent Algorithm</h5>                    
+                    <p><a class="text-info font-weight-bold" href="#" class="btn-custom">Read More... <i class="fas fa-angle-double-right"></i> <span class="ion-ios-arrow-forward"></span></a></p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=515591809384796&autoLogAppEvents=1" nonce="nyk27ZMG"></script>
+</body>
+</html>
